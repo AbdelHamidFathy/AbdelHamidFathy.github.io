@@ -2,84 +2,51 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #222;
+    background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
-    position: relative;
-    animation: fadeIn 1s ease-in-out;
 }
 
-header .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.contact-info {
-    margin-top: 20px;
-}
-
-.social-icons {
-    margin-top: 20px;
+h1, h2 {
+    margin: 0 0 10px;
 }
 
 .social-icons a {
-    color: #fff;
+    color: white;
     margin: 0 10px;
     font-size: 24px;
-    text-decoration: none;
-    transition: color 0.3s, transform 0.3s;
+    transition: transform 0.3s;
 }
 
 .social-icons a:hover {
-    color: #f5f5f5;
-    transform: scale(1.2);
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-main {
-    padding: 20px;
+    transform: scale(1.1);
 }
 
 section {
     background-color: white;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    animation: fadeInUp 1s ease-in-out;
 }
 
-a {
-    color: #007BFF;
-    text-decoration: none;
-    transition: color 0.3s, transform 0.3s;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-a:hover {
-    text-decoration: underline;
-    color: #0056b3;
-    transform: scale(1.1);
+li {
+    margin-bottom: 10px;
 }
 
-h1, h2 {
-    margin: 10px 0;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
